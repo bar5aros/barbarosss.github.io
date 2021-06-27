@@ -6,14 +6,18 @@ body {
     rgba(148, 187, 233, 1) 100%
   );
 }
+.wrapPage {
+  max-width: 1920px;
+  max-height: 1080px;
+  margin: auto;
+}
 .mainContainer {
   width: 500px;
   height: 500px;
   margin: auto;
-  padding: 15px;
   border: 0px solid red;
   display: flex;
-  background-color: white;
+  background-color: #ffd4f7;
   border-radius: 25px;
 }
 .internalContainer {
