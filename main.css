@@ -1,3 +1,107 @@
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.mainContainer {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  padding: 15px;
+  border: 0px solid red;
+  display: flex;
+  background-color: white;
+  border-radius: 25px;
+}
+.internalContainer {
+  width: 450px;
+  height: 400px;
+  border: 0px solid blue;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
 h1 {
-    color: red;
+  color: black;
+  text-shadow: 1px 1px 1px #a0ada3;
+  font-family: "Zilla Slab", sans-serif;
+  font-size: 36px;
+}
+h2 {
+  color: black;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+.resume {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+.profilePicContainer {
+  width: 350px;
+  height: 320px;
+  border: 0px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.profilePic {
+  width: 200px;
+  height: 200px;
+  border: 0px solid #a0ada3;
+  border-radius: 50%;
+}
+.socialMediaLinks {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border: 0px solid green;
+}
+.iconContainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0px solid red;
+}
+.navIcon {
+  max-width: 75%;
+  width: 30px;
+  height: 30px;
+  max-height: 75%;
+  margin: auto;
+  display: block;
+}
+.bioContainer {
+  width: 250px;
+  height: 30px;
+  border: 0px solid red;
+  text-align: center;
+}
+.resumeContainer {
+  margin-top: 15px;
+  width: 200px;
+  height: 30px;
+  border: 0px solid red;
+  background-color: black;
+  text-align: center;
+  border-radius: 15px;
+}
+.resumeTextContainer {
+  width: 195px;
+  height: 28px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
