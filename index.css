@@ -7,13 +7,14 @@ body {
   );
 }
 .wrapPage {
-  max-width: 1920px;
-  max-height: 1080px;
+  max-width: 720px;
+  max-height: 720px;
   margin: auto;
+  padding-top: 2%;
 }
 .mainContainer {
-  width: 500px;
-  height: 500px;
+  width: 75%;
+  height: 80%;
   margin: auto;
   border: 0px solid red;
   display: flex;
@@ -21,8 +22,8 @@ body {
   border-radius: 25px;
 }
 .internalContainer {
-  width: 450px;
-  height: 400px;
+  width: 90%;
+  height: 80%;
   border: 0px solid blue;
   margin: auto;
   display: flex;
@@ -33,7 +34,7 @@ body {
 }
 h1 {
   color: black;
-  text-shadow: 1px 1px 1px #a0ada3;
+  /*text-shadow: 1px 1px 1px #a0ada3;*/
   font-family: "Zilla Slab", sans-serif;
   font-size: 36px;
 }
@@ -48,9 +49,10 @@ h2 {
   text-decoration: none;
 }
 .profilePicContainer {
-  width: 350px;
-  height: 320px;
-  border: 0px solid red;
+  width: 80%;
+  height: 60%;
+  border: 0px solid green;
+  margin: 10px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,13 +60,13 @@ h2 {
   text-align: center;
 }
 .profilePic {
-  width: 200px;
-  height: 200px;
+  width: 60%;
+  height: 60%;
   border: 0px solid #a0ada3;
   border-radius: 50%;
 }
 .socialMediaLinks {
-  width: 200px;
+  width: 60%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -72,27 +74,27 @@ h2 {
   border: 0px solid green;
 }
 .iconContainer {
-  width: 40px;
-  height: 40px;
+  width: 40%;
+  height: 70%;
   border-radius: 50%;
   border: 0px solid red;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .navIcon {
-  max-width: 75%;
   width: 30px;
   height: 30px;
-  max-height: 75%;
-  margin: auto;
-  display: block;
 }
 .bioContainer {
-  width: 250px;
-  height: 30px;
+  width: 80%;
+  height: 10%;
+  margin-top: 5px;
   border: 0px solid red;
   text-align: center;
 }
 .resumeContainer {
-  margin-top: 15px;
+  margin: 15px;
   width: 200px;
   height: 30px;
   border: 0px solid red;
